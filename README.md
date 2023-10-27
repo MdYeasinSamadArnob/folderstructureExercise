@@ -1,3 +1,19 @@
+
+#Site Link : [https://folderstructureshowcase.netlify.app/](https://folderstructureshowcase.netlify.app/)
+
+#Backend Github:[https://github.com/MdYeasinSamadArnob/filestructureexercise-API](https://github.com/MdYeasinSamadArnob/filestructureexercise-API)
+
+-The Code was done according to instructions
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
