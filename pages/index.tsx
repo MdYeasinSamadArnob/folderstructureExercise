@@ -12,7 +12,7 @@ export interface TreeNode {
   id: string;
   child: TreeNode[] | [];
 }
-const APIUrl: string ="http://localhost:5000/"//https://folder-structure-api-g4oe.onrender.com/"; // "http://localhost:5000";
+const APIUrl: string = "https://filestructure-api.onrender.com/"//"http://localhost:5000/"; // "http://localhost:5000";
 Axios.defaults.baseURL = APIUrl;
 
 function App() {
