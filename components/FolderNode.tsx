@@ -1,6 +1,13 @@
 import { FcFolder, FcOpenedFolder, FcPlus } from "react-icons/fc";
-import { TreeNode } from "../App";
+// import { TreeNode } from "../App";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+
+export interface TreeNode {
+  name: string;
+  isOpen: boolean;
+  id: string;
+  child: TreeNode[] | [];
+}
 
 const FolderNode = ({
   folderData,
@@ -22,14 +29,14 @@ const FolderNode = ({
           <h4>{folderData?.name}</h4>
         </div>
         <div className="iconContainer">
-          {folderData.id !== "6534118b68afc9c9ec415ecc" && (
+          {folderData.id !== "653b4de3407359826ad118e6" && (
             <span
               onClick={(e) => {
                 e.stopPropagation();
                 folderCreateCloseHandler(folderData, "close");
               }}
             >
-              <AiOutlineCloseCircle />
+              <AiOutlineCloseCircle  />
             </span>
           )}
           <span
@@ -56,7 +63,7 @@ const FolderNode = ({
         </div>
       )} */}
       {folderData.isOpen &&
-        (folderData?.child.length > 0 ? (
+        (folderData?.child?.length > 0 ? (
           <div style={{ marginLeft: "20px" }}>
             {folderData?.child.map((childNode, index) => (
               <FolderNode
@@ -69,7 +76,7 @@ const FolderNode = ({
           </div>
         ) : (
           <div style={{ marginLeft: "20px" }} className="childRoots">
-            <p style={{ fontSize: "10px", opacity: ".5" }}>Empty</p>
+            <p style={{ fontSize: "10px", opacity: ".5" ,color: "gray"}}>Empty</p>
           </div>
         ))}
     </>

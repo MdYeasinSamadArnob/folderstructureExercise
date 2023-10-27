@@ -1,4 +1,4 @@
-import { TreeNode } from "../App";
+import { TreeNode } from "./FolderNode";
 
 export const FolderDataSet: TreeNode = {
   name: "Root",
@@ -61,7 +61,7 @@ export const toggleFolder = (
 ) => {
   const updateNodeToggle = (child: TreeNode) => {
     if (child.id === id) {
-      if (child.isOpen && child.child.length > 0) {
+      if (child.isOpen && child.child?.length > 0) {
         closeNextAllChildNode(child);
       } else {
         child.isOpen = !child.isOpen;
