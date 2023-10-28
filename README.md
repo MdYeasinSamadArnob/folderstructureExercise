@@ -1,9 +1,14 @@
 
-#Site Link : [https://folderstructureshowcase.netlify.app/](https://folderstructureshowcase.netlify.app/)
+## Site Link : [https://folderstructureshowcase.netlify.app/](https://folderstructureshowcase.netlify.app/)
 
-#Backend Github:[https://github.com/MdYeasinSamadArnob/filestructureexercise-API](https://github.com/MdYeasinSamadArnob/filestructureexercise-API)
+## Backend Github:[https://github.com/MdYeasinSamadArnob/filestructureexercise-API](https://github.com/MdYeasinSamadArnob/filestructureexercise-API)
 
 -The Code was done according to instructions
+
+# Image preview:
+
+![image](https://github.com/MdYeasinSamadArnob/folderstructureExercise/assets/29351816/f92a33b3-6769-473a-80ea-bbd8dc17a9cf)
+
 
 
 
