@@ -28,8 +28,8 @@ const ViewModal = ({
           </span>
         </div>
         <div>{children}</div>
-        <div className="modal-action-footer">
-          <button onClick={() => onCancel()}>{cancelText || "Cancel"}</button>
+        <div className="modal-action-footer " style={{color:"white"}}>
+          <button style={{color:"white"}} onClick={() => onCancel()}>{cancelText || "Cancel"}</button>
           <button onClick={() => OnOk()}>{okText || "Save"}</button>
         </div>
       </div>

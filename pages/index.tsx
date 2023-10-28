@@ -131,7 +131,7 @@ function App() {
             </ViewModal>
           )}
         </div>
-        <div className="modal">
+        <div className="modal" style={{color:"white"}}>
           {isCloseModalOpen && (
             <ViewModal
               OnOk={() => {
